@@ -210,12 +210,12 @@ function gerar() {
             return false;
         } else {
             ocultar();
-            elHtml.value = '<link rel="stylesheet" type="text/css" href="https://sites.google.com/site/geradorzeta/gplayer/css/jquery.fancybox.min.css">\
+            elHtml.value = '<link rel="stylesheet" type="text/css" href="https://kadrama.github.io/Player/jquery.fancybox.min.css">\
                             <a data-fancybox data-type="iframe" data-src="' + link + '" href="javascript:;">\
                                 <img ' + img + 'src="' + elBotao.value + '">\
                             </a>\
-                            <script src="https://sites.google.com/site/geradorzeta/gplayer/js/jquery.min.js"></script>\
-                            <script src="https://sites.google.com/site/geradorzeta/gplayer/js/jquery.fancybox.min.js"></script>';
+                            <script src="https://kadrama.github.io/Player/jquery.min.js"></script>\
+                            <script src="https://kadrama.github.io/Player/jquery.fancybox.min.js"></script>';
             elHtmlResultado.style = "";
         }
     }
