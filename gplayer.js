@@ -189,7 +189,7 @@ function gerar() {
         qualidade = "";
     }
     
-    link = "https://player011.blogspot.com/2019/07/teste.html#" + filme + nome + poster + legenda + idiomaL + autoplay + qualidade;
+    link = "https://player011.blogspot.com/2019/07/KaDO-Player.html#" + filme + nome + poster + legenda + idiomaL + autoplay + qualidade;
     if (elIframe.checked === false) {
         if (elBotao.value === "" || !elBotaoS.checked) {
             ocultar();
