@@ -172,7 +172,7 @@ function gerar() {
     if (elLegenda.value && eelLegenda !== "") {
         legenda = "z+legendaz=" + elLegenda.value;
         
-        legendaE = "z+legendaEz" + eelLegenda.value;
+        legendaE = "z+legendaEz=" + eelLegenda.value;
         
         if (elidiomaL.selectedIndex === 0) {
             idiomaL = "z+idiomaz=pt";
